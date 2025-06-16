@@ -162,6 +162,23 @@ export const Header: React.FC = () => {
                   <span>📷</span>
                   <span>Gallery</span>
                 </button>
+                   <button
+                  onClick={() => scrollToSection('testimonials')}
+                  className="flex items-center space-x-3 w-full text-left font-body font-medium text-gray-700 hover:text-primary-600 transition-colors"
+                >
+                  <span>👨‍👩‍👧‍👦</span>
+                  <span>What Parents say</span>
+                </button>
+                
+                   <button
+                  onClick={() => scrollToSection('contact')}
+                  className="flex items-center space-x-3 w-full text-left font-body font-medium text-gray-700 hover:text-primary-600 transition-colors"
+                >
+                  <span>📞</span>
+                  <span>Contact</span>
+                </button>
+                
+                
                 <button
                   onClick={openWhatsApp}
                   className="w-full bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full font-body font-medium flex items-center justify-center space-x-2 transition-colors"
