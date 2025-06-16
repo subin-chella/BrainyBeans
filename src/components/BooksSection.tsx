@@ -74,7 +74,7 @@ export const BooksSection: React.FC = () => {
 
   const orderBooks = (category: string) => {
     const message = encodeURIComponent(`Hi! I'm interested in your ${category} collection. Can you show me what's available? 📚✨`);
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   const filteredCategories = selectedCategory === 'all' 
@@ -179,7 +179,7 @@ export const BooksSection: React.FC = () => {
                 className="w-full bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full font-body font-semibold flex items-center justify-center space-x-2 transition-colors"
               >
                 <MessageCircle size={18} />
-                <span>Browse {category.name}</span>
+                <span>Check for {category.name}</span>
               </motion.button>
             </motion.div>
           ))}

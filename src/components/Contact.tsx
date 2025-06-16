@@ -11,7 +11,7 @@ export const Contact: React.FC = () => {
       action: "Chat Now",
       link: () => {
         const message = encodeURIComponent("Hi! I'd like to know more about Brainy Beans books and toys! 😊");
-        window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+        window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
       },
       color: "bg-green-500 hover:bg-green-600"
     },
@@ -20,7 +20,7 @@ export const Contact: React.FC = () => {
       title: "Phone Support",
       description: "Call us for urgent queries",
       action: "Call Now",
-      link: () => window.open('tel:+911234567890'),
+      link: () => window.open('tel:+917904472575'),
       color: "bg-blue-500 hover:bg-blue-600"
     },
     {
@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
       title: "Email",
       description: "Send us detailed queries or feedback",
       action: "Send Email",
-      link: () => window.open('mailto:hello@brainybeans.com?subject=Inquiry about Brainy Beans'),
+      link: () => window.open('mailto:brainybeansofficial@gmail.com?subject=Inquiry about Brainy Beans'),
       color: "bg-purple-500 hover:bg-purple-600"
     }
   ];
@@ -257,7 +257,7 @@ export const Contact: React.FC = () => {
                 whileTap={{ scale: 0.95 }}
                 onClick={() => {
                   const message = encodeURIComponent("Hi! I'm ready to join the Brainy Beans community! Can you add me to the WhatsApp group? 🎉");
-                  window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+                  window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
                 }}
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-body font-semibold flex items-center space-x-2 transition-colors"
               >

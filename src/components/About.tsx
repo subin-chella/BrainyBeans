@@ -80,7 +80,7 @@ export const About: React.FC = () => {
         >
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="font-heading font-bold text-3xl text-primary-600 mb-2">500+</div>
+              <div className="font-heading font-bold text-3xl text-primary-600 mb-2">200+</div>
               <div className="font-body text-gray-600">Happy Families</div>
             </div>
             <div>

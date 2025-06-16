@@ -5,7 +5,7 @@ import { MessageCircle, ArrowDown, Sparkles } from 'lucide-react';
 export const Hero: React.FC = () => {
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hi! I'm interested in learning more about Brainy Beans books and toys! 📚🧸");
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   const scrollToQuestionnaire = () => {

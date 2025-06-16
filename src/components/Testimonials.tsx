@@ -78,7 +78,7 @@ export const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section id="testimonials" className="py-20 px-4 bg-white">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -114,7 +114,7 @@ export const Testimonials: React.FC = () => {
             <div className="font-body text-gray-600 text-sm">Average Rating</div>
           </div>
           <div className="text-center">
-            <div className="font-heading font-bold text-3xl text-accent-600 mb-2">500+</div>
+            <div className="font-heading font-bold text-3xl text-accent-600 mb-2">200+</div>
             <div className="font-body text-gray-600 text-sm">Happy Families</div>
           </div>
           <div className="text-center">
@@ -255,7 +255,7 @@ export const Testimonials: React.FC = () => {
             whileTap={{ scale: 0.95 }}
             onClick={() => {
               const message = encodeURIComponent("Hi! I'd love to start shopping for my child. Can you help me find the perfect books and toys? 😊");
-              window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+              window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
             }}
             className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-body font-semibold text-lg flex items-center space-x-3 mx-auto transition-colors"
           >

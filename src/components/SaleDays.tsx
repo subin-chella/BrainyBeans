@@ -114,7 +114,7 @@ export const SaleDays: React.FC = () => {
 
   const joinSaleGroup = () => {
     const message = encodeURIComponent(`Hi! I'd like to join the Brainy Beans sale group to get notified about ${saleType.toLowerCase()} sales! 🛍️`);
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   const addToCalendar = () => {

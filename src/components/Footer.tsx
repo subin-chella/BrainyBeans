@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hi! I'd like to know more about Brainy Beans! 😊");
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   return (
@@ -132,7 +132,7 @@ export const Footer: React.FC = () => {
                     onClick={openWhatsApp}
                     className="font-body text-green-400 hover:text-green-300 transition-colors"
                   >
-                    +91 12345 67890
+                    +91 79044 72575
                   </button>
                 </div>
               </div>
@@ -142,10 +142,10 @@ export const Footer: React.FC = () => {
                 <div>
                   <p className="font-body text-gray-300 text-sm">Phone Support</p>
                   <a
-                    href="tel:+911234567890"
+                    href="tel:+917904472575"
                     className="font-body text-blue-400 hover:text-blue-300 transition-colors"
                   >
-                    +91 12345 67890
+                    +91 79044 72575
                   </a>
                 </div>
               </div>
@@ -155,10 +155,10 @@ export const Footer: React.FC = () => {
                 <div>
                   <p className="font-body text-gray-300 text-sm">Email</p>
                   <a
-                    href="mailto:hello@brainybeans.com"
+                    href="mailto:brainybeansofficial@gmail.com"
                     className="font-body text-purple-400 hover:text-purple-300 transition-colors"
                   >
-                    hello@brainybeans.com
+                    brainybeansofficial@gmail.com
                   </a>
                 </div>
               </div>
@@ -252,7 +252,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className="flex items-center space-x-2 text-gray-400">
             <span className="text-yellow-400">✓</span>
-            <span className="font-body text-sm">500+ Happy Families</span>
+            <span className="font-body text-sm">200+ Happy Families</span>
           </div>
         </motion.div>
       </div>

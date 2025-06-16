@@ -151,7 +151,7 @@ export const Gallery: React.FC = () => {
 
   const orderItem = (item: GalleryItem) => {
     const message = encodeURIComponent(`Hi! I'm interested in "${item.title}" (${item.price}). Is it still available? 📚🧸`);
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   return (
@@ -414,7 +414,7 @@ export const Gallery: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => {
                 const message = encodeURIComponent("Hi! I'd love to see your full collection of books and toys. Can you add me to the WhatsApp group? 📚🧸");
-                window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+                window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
               }}
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-body font-semibold text-lg flex items-center space-x-3 mx-auto transition-colors"
             >

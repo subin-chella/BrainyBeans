@@ -73,7 +73,7 @@ export const FeaturedProducts: React.FC = () => {
 
   const orderProduct = (product: Product) => {
     const message = encodeURIComponent(`Hi! I'm interested in the "${product.name}" (${product.price}). Can you please provide more details? 📚✨`);
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   return (

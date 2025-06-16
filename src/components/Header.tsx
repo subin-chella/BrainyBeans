@@ -25,7 +25,7 @@ export const Header: React.FC = () => {
 
   const openWhatsApp = () => {
     const message = encodeURIComponent("Hi! I'm interested in learning more about Brainy Beans books and toys! 📚🧸");
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   return (
@@ -80,6 +80,18 @@ export const Header: React.FC = () => {
               className="font-body font-medium text-gray-700 hover:text-primary-600 transition-colors"
             >
               Gallery
+            </button>
+            <button
+              onClick={() => scrollToSection('testimonials')}
+              className="font-body font-medium text-gray-700 hover:text-primary-600 transition-colors"
+            >
+              What Parents Say
+            </button>
+            <button
+              onClick={() => scrollToSection('contact')}
+              className="font-body font-medium text-gray-700 hover:text-primary-600 transition-colors"
+            >
+              Contact
             </button>
           </nav>
 

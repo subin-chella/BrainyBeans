@@ -21,7 +21,7 @@ export const HowItWorks: React.FC = () => {
       action: "Join Now",
       actionLink: () => {
         const message = encodeURIComponent("Hi! I'd like to join the Brainy Beans WhatsApp group to stay updated on sales and new arrivals! 🛍️");
-        window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+        window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
       }
     },
     {
@@ -29,14 +29,14 @@ export const HowItWorks: React.FC = () => {
       icon: <Calendar className="w-8 h-8" />,
       title: "Wait for Sale Days",
       description: "Books are available on Tuesdays & Thursdays, Toys on Sundays. We'll notify you when sales go live at 6 PM sharp!",
-      action: "Set Reminder"
+      // action: "Set Reminder"
     },
     {
       id: 3,
       icon: <ShoppingCart className="w-8 h-8" />,
       title: "Browse & Block Items",
       description: "See something you like? Simply reply with 'BLOCK' and the item number. We'll hold it for you while you decide (24-hour hold).",
-      action: "Learn More"
+      // action: "Learn More"
     },
     {
       id: 4,
@@ -239,7 +239,7 @@ export const HowItWorks: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => {
                 const message = encodeURIComponent("Hi! I'm ready to join the Brainy Beans community and start shopping for my child! Can you add me to the group? 🎉");
-                window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+                window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
               }}
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-body font-semibold text-lg flex items-center space-x-3 mx-auto transition-colors"
             >

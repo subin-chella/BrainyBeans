@@ -101,7 +101,7 @@ export const ToysSection: React.FC = () => {
 
   const orderToys = (category: string) => {
     const message = encodeURIComponent(`Hi! I'm interested in your ${category} collection. Can you show me what's available? 🧸✨`);
-    window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
   };
 
   const filteredCategories = selectedCategory === 'all' 
@@ -209,7 +209,7 @@ export const ToysSection: React.FC = () => {
                 className="w-full bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full font-body font-semibold text-sm flex items-center justify-center space-x-2 transition-colors"
               >
                 <MessageCircle size={16} />
-                <span>Browse {category.name}</span>
+                <span>Check for {category.name}</span>
               </motion.button>
             </motion.div>
           ))}
@@ -324,7 +324,7 @@ export const ToysSection: React.FC = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => {
                 const message = encodeURIComponent("Hi! I'd like to join the Brainy Beans toy sale group! 🧸");
-                window.open(`https://wa.me/1234567890?text=${message}`, '_blank');
+                window.open(`https://wa.me/7904472575?text=${message}`, '_blank');
               }}
               className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-full font-body font-semibold flex items-center space-x-2 mx-auto transition-colors"
             >
